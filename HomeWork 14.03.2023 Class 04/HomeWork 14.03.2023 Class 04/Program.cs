@@ -100,7 +100,7 @@ int Calculator(int number, int numberTwo, int znak)
             }
             break;
         default:
-            Console.WriteLine("Error: invalid operator.");
+            Console.WriteLine("Try other operation");
             break;
     }
     return result;
